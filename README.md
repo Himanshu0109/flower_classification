@@ -1,12 +1,10 @@
 # flower_classification
 Flower Classification Project
 Flower classification with Convolutional Neural Networks,it presents a classification system for flower images by using Deep CNN with 90% accuracy. 
-import different models:
-from keras.models import Sequential
-from keras.layers import Convolution2D
-from keras.layers import MaxPooling2D
-from keras.layers import Flatten
-from keras.layers import Dense
+Data acquisition.
+We will use public flowers dataset which stored on kaggle. It contains five varieties of flowers: daisy,dandelion,rose, sunflower,tulip
+Architecture.
+Main idea is to tune pre-trained model with the library to get best possible result.
 # Step 1 - Convolution
 # Step 2 - Pooling
 # Adding a second convolutional layer
